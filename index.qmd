@@ -1,16 +1,15 @@
 ---
-title: "My website and data analysis portfolio"
+title: "Alayna Daws - Data Analysis Portfolio"
 output: 
   html_document:
     toc: FALSE
 ---
 
-# Hello
+# January 2023
 
-### And hello again
+### Hi!
 
-Welcome to **my website** and _data analysis portfolio._ 
+Welcome to **my website** and *MADA Portfolio.*
 
-
-* Please use the `Menu Bar` above to look around.
-* Have fun!
+-   You can use the `Menu Bar` above to look around. The "About Me" tab provides a brief introduction about myself, my research interests, and my experience in statistics.
+-   Please let me know if you have any questions. I look forward to working with you all this semester!
