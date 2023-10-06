@@ -1,15 +1,14 @@
 ---
-title: "Alayna Daws - Data Analysis Portfolio"
+title: "Data Analysis and Personal Portfolio"
 output: 
   html_document:
     toc: FALSE
 ---
 
-# January 2023
+# October 2023
 
-### Hi!
-
-Welcome to **my website** and *MADA Portfolio.*
+Welcome to **my website** and *Portfolio.*
 
 -   You can use the `Menu Bar` above to look around. The "About Me" tab provides a brief introduction about myself, my research interests, and my experience in statistics.
--   Please let me know if you have any questions. I look forward to working with you all this semester!
+-   You can use the `Projects` drop down to review prior data analysis projects.
+-   Please let me know if you have any questions. 

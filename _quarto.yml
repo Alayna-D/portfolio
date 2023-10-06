@@ -3,19 +3,22 @@ project:
   output-dir: docs
 
 website:
-  title: "My Data Analysis Portfolio"
+  title: "Alayna Daws Portfolio"
   navbar:
     left:
       - text: "About Me"
         href: ./aboutme.html
       - text: "Projects"
         menu:
-          - text: "R Coding Exercise"
-            href: ./coding_exercise.html
-          - text: "Visualization Exercise"
-            href: ./visualization_exercise.html
-          - text: "Tidy Tuesday Exercise"
-            href: ./tidytuesday_exercise.html
+          - text: "Master of Science Thesis"
+            href: ./Thesis.html
+          - text: "Undergraduate Honors Projects"
+            href: ./Honors.html
+          - text: "Statisticial Capstone Report"
+            href: ./Capstone.html
+          - text: "Sampling Analysis"
+            href: ./firefly.html
+
     right:
       - icon: github 
         href: alaynadaws-MADA-portfolio       

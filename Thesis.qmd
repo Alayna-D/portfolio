@@ -1,0 +1,63 @@
+---
+title: "Master of Science Thesis"
+output: 
+  html_document:
+    toc: FALSE
+title-block-banner: "#CC3333"
+published-title: Alayna Daws MS Thesis - Moran’s Eigenvector Spatial Filtering Regression Modeling of Interacting Disasters
+engine: knitr 
+cv:
+  pdf: "MSThesisFinal.pdf"
+---
+# Moran’s Eigenvector Spatial Filtering Regression Modeling of Interacting Disasters
+
+Abstract: This study aims to quantify spatiotemporal relationships among hurricane impacts, social vulnerability, and community resilience with COVID-19 deaths per capita. Data used in this study included the Southeastern US with Hospital Service Areas (HSAs) and Hospital Referral Regions (HRRs) instead of
+county-level data. The Moran eigenvector spatial filtering (MESF) modeling method was employed to
+index and filter spatial autocorrelation (SA) from the residuals. SA was visualized to understand better the spatial structure meaningful covariates contain. The MESF model outperformed the linear model, not
+accounting for SA. Adjusted R-squared was 49.8% higher, and residual SE decreased 29.3% when comparing a 4-nearest-neighbor HRR to the linear model not considering SA. Analyzing cumulative COVID-19 deaths
+with this methodology is more effective at the HRR than at the HSA level. Additionally, vulnerability
+and resilience indicators were more substantial than hurricane impacts.
+
+![](thesisimage.png){fig-align="center" width="700"}
+
+This image captures the 12 Moran eigenvector spatial filtering (MESF) models fit. 
+
+I have included the introduction, results and conclusion sections of the thesis below.
+
+```{css, echo=FALSE}
+#title-block-header .description {
+    display: none;
+}
+```
+
+```{css echo=FALSE}
+.embed-container {
+    position: relative;
+    padding-bottom: 129%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+```
+
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cv-download" href="`r rmarkdown::metadata$cv$pdf`" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download Thesis
+  </a>
+</p>
+
+<div class="embed-container">
+  <iframe src="`r rmarkdown::metadata$cv$pdf`" style="border: 0.5px"></iframe>
+</div>
+```
