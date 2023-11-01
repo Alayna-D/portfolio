@@ -1,1 +1,1 @@
-# My website and data analysis portfolio visit here: https://alayna-d.github.io/portfolio/
+# My website and data analysis portfolio visit here: https://alaynad1.github.io/portfolio/
