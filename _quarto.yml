@@ -10,9 +10,11 @@ website:
         href: ./aboutme.html
       - text: "Projects"
         menu:
+          - text: "Year In Review - Customer Report"
+            href: ./whyir2024.html
           - text: "Master of Science Thesis"
             href: ./Thesis.html
-          - text: "Undergraduate Honors Projects"
+          - text: "Phylogenetic Analysis Project"
             href: ./Honors.html
           - text: "Statisticial Capstone Report"
             href: ./Capstone.html
@@ -21,7 +23,9 @@ website:
 
     right:
       - icon: github 
-        href: https://alayna-d.github.io/portfolio/      
+        href: https://github.com/AlaynaD1?tab=repositories
+      - icon: linkedin
+        href: https://www.linkedin.com/in/alayna1785
 
 format:
   html:

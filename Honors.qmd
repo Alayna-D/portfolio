@@ -1,5 +1,5 @@
 ---
-title: "Undergraduate Honors Projects"
+title: "Phylogenetic Analysis Project"
 output: 
   html_document:
     toc: FALSE
@@ -19,7 +19,7 @@ classified as previously circulating. Delta and Omicron are considered to be cur
 circulating VOCs. Omicron is believed to exemplify a 13-fold increase in viral infectivity
 and is 2.8 times more infectious than the Delta variant (Cascella et.al 2022).
 
-The goal of this report was to see if the Delta and Omicron variant trends within the data
+The goal of this report was to determine if the Delta and Omicron variant trends within the data
 can be identified based on phylogenetic clades. This was completed by analyzing the 
 dates the samples were taken and comparing this to the variant more prominent at the
 time based on the COVID-19 timeline provided by the Centers for Disease Control and
